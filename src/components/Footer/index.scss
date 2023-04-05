@@ -1,14 +1,17 @@
-.footer{
+.footer {
   padding: 50px 0;
-  &--block{
+
+  &--block {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    &__left{
+
+    &__left {
       display: flex;
       flex-direction: column;
       align-items: start;
-      &--text{
+
+      &--text {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -17,15 +20,18 @@
         margin-top: 30px;
       }
     }
-    &__right{
+
+    &__right {
       display: flex;
       align-items: start;
-      .addresses{
+
+      .addresses {
         margin-right: 50px;
         display: flex;
         flex-direction: column;
         align-items: start;
-        &--title{
+
+        &--title {
           font-style: normal;
           font-weight: 600;
           font-size: 21.33px;
@@ -33,38 +39,46 @@
           color: #004A60;
           margin-bottom: 15px;
         }
-        a{
+
+        a {
           font-weight: 400;
           font-size: 16px;
           line-height: 24px;
           color: rgba(0, 74, 96, 0.7);
           margin: 8px 0;
         }
-        &--web{
+
+        &--web {
           display: flex;
           align-items: center;
-          a{
+
+          a {
             margin: 0 5px;
           }
-          .facebook{
+
+          .facebook {
             font-size: 20px;
           }
-          .linkedin{
+
+          .linkedin {
             font-size: 20px;
           }
-          .instagram{
+
+          .instagram {
             font-size: 23px;
           }
         }
       }
     }
   }
-  &__b{
+
+  &__b {
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    &--bottom{
+
+    &--bottom {
       font-weight: 400;
       font-size: 12.8px;
       line-height: 19px;

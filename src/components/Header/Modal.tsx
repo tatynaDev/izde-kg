@@ -1,12 +1,20 @@
-import React, {useState} from 'react';
-import {NavLink} from "react-router-dom";
+import React, {useEffect, useState} from 'react';
+import {NavLink, useParams} from "react-router-dom";
 import Button from "../../UI/Button";
 
 const Modal = () => {
     const [open, setOpen] = useState(false)
+    const close = () => {
+        setOpen(!open)
+    }
+
+    useEffect(() => {
+        setOpen(false)
+    }, [])
+
     return (
         <div className="header__block--modal">
-            <button onClick={() => setOpen(!open)}
+            <button onClick={close}
                 className='header__block--modal__btn'>
                 <div className={`line long ${open ? "up" : ""}`}></div>
                 <div className={`line short`} style={{
@@ -18,12 +26,12 @@ const Modal = () => {
             <div className="header__block--modal__window" style={{
                 right:open ? '' : '-500px'
             }}>
-                <NavLink to='/buy'>Buy</NavLink>
-                <NavLink to='/rent'>Rent</NavLink>
-                <NavLink to='/agents'>Agents</NavLink>
-                <NavLink to='/review'>Reviews</NavLink>
+                <NavLink onClick={close} to='/buy'>Buy</NavLink>
+                <NavLink onClick={close} to='/rent'>Rent</NavLink>
+                <NavLink onClick={close} to='/agents'>Agents</NavLink>
+                <NavLink onClick={close} to='/review'>Reviews</NavLink>
 
-                <Button text='login' classN='header__block--btn__btn'/>
+                <Button fn={close} text='login' classN='header__block--btn__btn'/>
                 <div className='header__block--btn__language'>
                     <select>
                         <option className='language'>English</option>

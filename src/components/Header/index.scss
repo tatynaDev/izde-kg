@@ -114,9 +114,12 @@
         top: -44px;
         background: #FFFFFF;
         border-radius: 32px 0 0 32px;
-        border: 1px solid rgba(0, 74, 96, 0.52);
         padding: 80px 50px 80px 80px;
         transition: .5s ease-in-out;
+        -webkit-box-shadow: -26px 3px 61px -16px rgba(34, 60, 80, 0.29);
+        -moz-box-shadow: -26px 3px 61px -16px rgba(34, 60, 80, 0.29);
+        box-shadow: -26px 3px 61px -16px rgba(34, 60, 80, 0.29);
+
         a{
           font-weight: 400;
           font-size: 18px;
@@ -124,9 +127,11 @@
           color: #004A60;
           margin: 50px 50px 0 0;
         }
+
         .header__block--btn__language{
           margin: 30px 50px 0 0;
         }
+
         .header__block--btn__btn{
           margin: 50px 50px 0 0;
           padding: 5px 25px;
