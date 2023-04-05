@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import Modal from "./Modal";
 
 const Header = () => {
+
     return (
         <div className='header'>
             <div className="container">
