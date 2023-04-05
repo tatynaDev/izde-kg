@@ -64,6 +64,13 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .footer--block__right {
+    .addresses {
+      width: 160px;
+    }
+  }
+}
 
 @media (max-width: 400px) {
   .footer--block {
@@ -76,12 +83,31 @@
     }
   }
 }
+@media (max-width:399px) {
+  .footer--block {
+    &__right {
+      .addresses {
+        width: 158px;
+      }
+    }
+  }
+}
 
 @media (max-width: 375px) {
   .footer--block {
     &__right {
       .addresses {
         width: 155px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .footer--block {
+    &__right {
+      .addresses {
+        width: 140px;
       }
     }
   }
