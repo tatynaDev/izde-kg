@@ -1,0 +1,50 @@
+.buyHome {
+  border: 1px solid rgba(0, 74, 96, 0.5);
+  border-radius: 16px;
+  width: 640px;
+  display: flex;
+  align-items: start;
+  padding: 5px 5px 0 5px;
+  margin-top: 50px;
+  &--right{
+    margin-left: 20px;
+    &__text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #004A60;
+      margin-top: 5px;
+    }
+    &__title{
+      font-weight: 500;
+      font-size: 21.33px;
+      line-height: 32px;
+      color: #004A60;
+    }
+    &__stuff{
+      margin-top: 60px;
+      display: flex;
+      flex-wrap:wrap ;
+      p{
+        margin-right: 50px;
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 74, 96, 0.7);
+      }
+    }
+    &__loc{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      .price{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1B76F9;
+        margin-left: 160px;
+      }
+    }
+  }
+}

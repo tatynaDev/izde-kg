@@ -1,0 +1,18 @@
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 160px;
+  .pagination{
+    border: 1px solid #1B76F9;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background: transparent;
+    margin: 0 5px;
+    transition: .3s;
+    &:hover{
+      background: #1B76F9;
+      color: #FFFFFF;
+    }
+  }
+}
