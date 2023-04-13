@@ -31,7 +31,7 @@ const Modal = () => {
                 <NavLink onClick={close} to='/agents'>Agents</NavLink>
                 <NavLink onClick={close} to='/review'>Reviews</NavLink>
 
-                <Button fn={close} text='login' classN='header__block--btn__btn'/>
+                <Button onClick={close} text='login' classN='header__block--btn__btn'/>
                 <div className='header__block--btn__language'>
                     <select>
                         <option className='language'>English</option>

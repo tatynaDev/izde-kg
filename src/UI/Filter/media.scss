@@ -195,8 +195,10 @@
   .filter--right {
     margin-top: 15px;
     &____sel {
-      padding: 6px 1px;
-      margin: 0 4px;
+        padding: 7px 2px;
+      select {
+        font-size: 14px;
+      }
     }
   }
 }

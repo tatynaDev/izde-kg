@@ -1,8 +1,16 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import Button from "../../UI/Button";
+import {useNavigate} from 'react-router-dom';
+
 
 const NavBar = () => {
+    const navigate = useNavigate()
+
+    const handleNav = () => {
+        navigate("/logIn")
+    }
+    
     return (
         <>
             <div className='header__block--nav'>
@@ -20,7 +28,7 @@ const NavBar = () => {
                         <option className='language'>Russian</option>
                     </select>
                 </div>
-                <Button text='login' classN={'header__block--btn__btn'}/>
+                <Button text='login' classN={'header__block--btn__btn'} onClick={handleNav}/>
             </div>
         </>
     );
