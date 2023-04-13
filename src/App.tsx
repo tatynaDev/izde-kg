@@ -8,6 +8,7 @@ import ReviewPage from "./pages/ReviewPage";
 import LogIn from "./pages/MainPage/LogIn";
 import UserProfile from "./pages/MainPage/UserProfile";
 import AddPropertyDetail from "./pages/MainPage/AddPropertyDetail";
+import AgentDetail from "./pages/AgentsPage/AgentsDetail/agentsDetail";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path={'/logIn'} element={<LogIn/>}/>
         <Route path={'/userProfile'} element={<UserProfile/>}/>
         <Route path={"/AddPropertyDetail"} element={<AddPropertyDetail/>}/>
+        <Route path={'/agentDetail'} element={<AgentDetail/>}/>
       </Routes>
     </div>
   );

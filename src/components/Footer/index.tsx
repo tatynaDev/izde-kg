@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.scss'
+import './media.scss'
 import Logo from "../Header/logo";
 import FooterAddress from "./FooterAddress";
 import {GrFacebook, GrLinkedin} from "react-icons/gr";

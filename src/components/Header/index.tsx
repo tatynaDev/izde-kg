@@ -2,7 +2,9 @@ import React from 'react';
 import {NavLink, useNavigate} from 'react-router-dom';
 import Logo from "./logo";
 import './index.scss'
-import Button from "../../UI/Button";
+import './media.scss'
+import NavBar from "./NavBar";
+import Modal from "./Modal";
 
 const Header = () => {
     const navigate = useNavigate()
@@ -31,6 +33,8 @@ const Header = () => {
                         </div>
                         <Button onClick={() => navigate("/logIn")} text='login' classN={'header__block--btn__btn'}/>
                     </div>
+                    <NavBar/>
+                    <Modal/>
                 </div>
             </div>
         </div>
