@@ -1,10 +1,12 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import Logo from "./logo";
 import './index.scss'
 import Button from "../../UI/Button";
 
 const Header = () => {
+    const navigate = useNavigate()
+
     return (
         <div className='header'>
             <div className="container">
@@ -27,7 +29,7 @@ const Header = () => {
                                 <option className='language'>Russian</option>
                             </select>
                         </div>
-                        <Button text='login' classN={'header__block--btn__btn'}/>
+                        <Button onClick={() => navigate("/logIn")} text='login' classN={'header__block--btn__btn'}/>
                     </div>
                 </div>
             </div>

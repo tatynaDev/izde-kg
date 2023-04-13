@@ -1,0 +1,104 @@
+#logIn {
+  background: url("../../../assets/img/LogIn/LogIn-image.png") no-repeat center/cover;
+  min-height: 130vh;
+  .logIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    &--logo {
+      padding: 0 0 64px 0;
+      display: flex;
+      align-items: baseline;
+      h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin: 0  0 0 13px;
+      }
+    }
+    &--nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 624px;
+      padding: 20px;
+      height: 521px;
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 74, 96, 0.61);
+      border-radius: 32px;
+      h6 {
+        font-weight: 600;
+        font-size: 18px;
+        color: #004A60;
+      }
+      input {
+        &::placeholder {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: rgba(0, 74, 96, 0.65);
+        }
+        width: 544px;
+        height: 54px;
+        border: 1px solid rgba(0, 74, 96, 0.46);
+        border-radius: 11px;
+        outline: none;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 74, 96, 0.65);
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #004A60;
+        width: 544px;
+      }
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #1B76F9;
+      }
+      &__btn {
+        width: 544px;
+        height: 54px;
+        background: #1B76F9;
+        border: 1px solid #0762E5;
+        border-radius: 11px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+      &__button {
+        position: absolute;
+        font-size: 20px;
+        left: 91%;
+        top: 30%;
+      }
+      &__child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 544px;
+        height: 54px;
+        border: 1px solid rgba(0, 74, 96, 0.46);
+        border-radius: 11px;
+        cursor: pointer;
+        h2 {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #004A60;
+        }
+      }
+    }
+  }
+}

@@ -1,13 +1,17 @@
 import React from 'react';
 
+
 interface IBtnProps {
-    text?: string
+    text?: string | any
     classN?: string
+    onClick?: () => void
+    disabled?: any
 }
 
-const Button: React.FC<IBtnProps> = ({text, classN}) => {
+const Button: React.FC<IBtnProps> = ({text,disabled,onClick, classN}) => {
+
     return (
-        <button className={classN}>{text}</button>
+        <button disabled={disabled} onClick={onClick} className={classN}>{text}</button>
     );
 };
 
