@@ -1,0 +1,121 @@
+.AddPropertyDetail {
+  padding: 130px 0 21px 0;
+  h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #004A60;
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #004A60;
+    text-decoration-line: underline;
+  }
+  &--group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    padding: 85px 0 0 0;
+    &__left {
+      h2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #004A60;
+      }
+      button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 74, 96, 0.7);
+        padding: 8px 17px;
+        border: 1px solid #AFC6CD;
+        border-radius: 8px;
+        background: transparent;
+        margin: 10px 20px 30px 0;
+      }
+      input {
+        margin: 6px 0 30px 0;
+        width: 235px;
+        height: 40px;
+        background: rgba(0, 74, 96, 0.1);
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 74, 96, 0.7);
+      }
+      .buttons {
+        font-weight: 500;
+        font-size: 20px;
+        width: 330px;
+        height: 54px;
+        background: #1B76F9;
+        border: 1px solid #0762E5;
+        border-radius: 11px;
+        color: #FFFFFF;
+      }
+    }
+    &__right {
+      h3 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #004A60;
+      }
+      &--box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 23px 0 0 0;
+        &__icons {
+          font-size: 30px;
+          padding: 0 10px;
+          color: #004A60;
+        }
+        input {
+          height: 24px;
+          width: 24px;
+          border-radius: 5px;
+          color: #004A60;
+        }
+        h4 {
+          font-weight: 400;
+          font-size: 18px;
+          color: #004A60;
+        }
+      }
+    }
+  }
+}
+.iframes {
+  margin: 130px 0 0 0;
+  width: 99%;
+  height: 612px;
+}
+.AddPropertyImageOne {
+  display: flex;
+  &--children {
+    display: flex;
+    &__one {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        padding: 15px;
+      }
+    }
+    &__two {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        padding: 15px;
+      }
+    }
+  }
+}

@@ -5,6 +5,9 @@ import BuyPage from "./pages/BuyPage";
 import RentPage from "./pages/RentPage";
 import AgentsPage from "./pages/AgentsPage";
 import ReviewPage from "./pages/ReviewPage";
+import LogIn from "./pages/MainPage/LogIn";
+import UserProfile from "./pages/MainPage/UserProfile";
+import AddPropertyDetail from "./pages/MainPage/AddPropertyDetail";
 import AgentDetail from "./pages/AgentsPage/AgentsDetail/agentsDetail";
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
         <Route path={'/rent'} element={<RentPage/>}/>
         <Route path={'/agents'} element={<AgentsPage/>}/>
         <Route path={'/review'} element={<ReviewPage/>}/>
+        <Route path={'/logIn'} element={<LogIn/>}/>
+        <Route path={'/userProfile'} element={<UserProfile/>}/>
+        <Route path={"/AddPropertyDetail"} element={<AddPropertyDetail/>}/>
         <Route path={'/agentDetail'} element={<AgentDetail/>}/>
       </Routes>
     </div>
