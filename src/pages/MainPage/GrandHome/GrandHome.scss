@@ -1,0 +1,47 @@
+#slider{
+  margin-top: 5rem;
+
+  .slider--general{
+    .slider--general__block{
+      margin-left: 6rem;
+      border: 1px solid #1B76F9;
+      outline: none;
+      width: 260px !important;
+      border-radius: 10px;
+      &--phone{
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .slider--general__block--phone-info{
+        margin-left: 15px;
+        margin-top: 15px;
+        h1{
+          font-weight: 500;
+          font-size: 21.33px;
+          color: #004A60;
+        }
+        &-price{
+          margin-bottom: 15px ;
+          margin-top: 10px;
+          width: 230px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .country{
+            color: #004A60B2;
+          }
+          .date{
+            color: #1B76F9;
+          }
+        }
+      }
+    }
+  }
+}
+.slick-dots{
+  display: none !important;
+}
+
+.slick-next{
+  display: none !important;
+}
