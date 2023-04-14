@@ -7,10 +7,7 @@ const MainHome = () => {
     const [accord, setAccord] = useState<boolean>(false)
     const [rooms, setRooms] = useState<boolean>(false)
     const [price, setPrice] = useState<boolean>(false)
-    // const [btnHome, setBtnHome] = useState<boolean>(false)
-    function button (){
-      return
-    }
+
     return (
         <>
             <div className="main-home" id="main-home">
