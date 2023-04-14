@@ -1,0 +1,27 @@
+.agent{
+  margin-top: 8rem;
+  .content-agent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+      font-size: 28px;
+      font-weight: 600;
+      color: #004A60;
+    }
+    .agent-button{
+      width: 100px;
+      height: 40px;
+      background-color: #1B76F94D;
+      color: #1B76F9;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    .agent-button:hover{
+      color: white;
+      background-color: #1B76F9;
+      transition: 1s;
+    }
+  }
+}
