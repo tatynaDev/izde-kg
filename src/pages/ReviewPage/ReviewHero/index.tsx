@@ -1,6 +1,6 @@
 import React from 'react';
-import "./reviewPage.scss";
-import reviewPage from "./../../assets/img/ReviewPage/reviewBuild.svg"
+import "./reviewStyle.scss";
+import reviewPage from "../../../assets/img/ReviewPage/reviewBuild.svg"
 import {BiSearch} from "react-icons/bi";
 
 
