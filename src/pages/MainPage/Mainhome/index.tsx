@@ -36,8 +36,6 @@ const MainHome = () => {
                                                     accord ? <HiOutlineChevronDown className='down'/> :
                                                         <HiOutlineChevronUp className='up'/>
                                                 }
-
-
                                             </label>
 
                                             <div className="country-text">
@@ -79,8 +77,6 @@ const MainHome = () => {
                                                         <HiOutlineChevronUp className='up'/>
 
                                                 }
-
-
                                             </label>
 
                                             <div className="price-text">
