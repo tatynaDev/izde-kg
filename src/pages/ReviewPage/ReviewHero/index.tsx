@@ -8,10 +8,10 @@ import {BiSearch} from "react-icons/bi";
 const ReviewPage = () => {
     return (
         <div id="review">
+            <img  src={reviewPage} alt="img"/>
             <div className="container">
                 <div className="review">
                     <div className="review--build">
-                        <img  src={reviewPage} alt="img"/>
                         <h1>Building Reviews</h1>
                     </div>
                     <div className="review--block">
