@@ -6,7 +6,7 @@ import photo from './../../../assets/img/explore-home1.svg'
 import girl from './../../../assets/img/explore-home2.svg'
 import './GrandHome.scss'
 
-const GrandHome  = () => {
+const GrandHome = () => {
     const settings = {
         className: "center",
         infinite: false,
@@ -53,57 +53,64 @@ const GrandHome  = () => {
         ]
     };
 
-    const block = [{
+    const block = [
+        {
         image: photo,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: girl,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: photo,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: girl,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: photo,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: girl,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }, {
+    },
+        {
         image: photo,
         name: "The Grand Estate",
         country: 'Bishkek',
         date: "$ 100 000"
 
-    }
-    ]
+    }]
     return (
         <>
-        <section id="slider">
+            <section id="slider">
                 <div className="slider--general">
                     <Slider {...settings}>
-                        {block.map((el, idx) => (
-                            <div  className='slider--general__block' key={idx}>
+                        {
+                            block.map((el, idx) => (
+                            <div className='slider--general__block' key={idx}>
                                 <img className='slider--general__block--phone' src={el.image} alt=""/>
                                 <div className='slider--general__block--phone-info'>
                                     <h1>{el.name}</h1>
@@ -111,14 +118,12 @@ const GrandHome  = () => {
                                         <p className='country'>{el.country}</p>
                                         <p className='date'>{el.date}</p>
                                     </div>
-
-
                                 </div>
                             </div>))}
                     </Slider>
                 </div>
-        </section>
-    </>);
+            </section>
+        </>);
 };
 
 export default GrandHome
