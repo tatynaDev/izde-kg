@@ -4,6 +4,7 @@ import '../AgentsDetail/AgentsDetail.scss'
 import {FiPhoneCall} from "react-icons/fi";
 import {MdOutlineEmail} from "react-icons/md";
 import paragon from '../../../assets/img/image 3.png'
+import "./Media/AgentsDetailMedia.scss"
 
 const AgentDetail = () => {
     return (
@@ -49,11 +50,13 @@ const AgentDetail = () => {
                     <div className="info-block">
                         <div className="info-block__call">
                             <h1>Contact this agent</h1>
-                            <div className="info-block__call-agent">
-                                <button><FiPhoneCall className='phoneCall'/> Call agent</button>
-                            </div>
-                            <div className="info-block__call-email">
-                                <button><MdOutlineEmail className='LineEmail'/> Email agent</button>
+                            <div className="con">
+                                <div className="info-block__call-agent">
+                                    <button><FiPhoneCall className='phoneCall'/> Call agent</button>
+                                </div>
+                                <div className="info-block__call-email">
+                                    <button><MdOutlineEmail className='LineEmail'/> Email agent</button>
+                                </div>
                             </div>
                         </div>
 

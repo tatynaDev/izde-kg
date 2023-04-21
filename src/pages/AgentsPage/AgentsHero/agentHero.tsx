@@ -21,12 +21,14 @@ const AgentHero = () => {
                             </button>
                         </div>
                         <div className='agent-search__holder-select'>
-                            <div className="agent-search__holder-select__option"><select>
-                                <option className='language' defaultChecked>language</option>
-                                <option className='language'>English</option>
-                                <option className='language'>Kyrgyz</option>
-                                <option className='language'>Russian</option>
-                            </select></div>
+                            <div className="agent-search__holder-select__option">
+                                <select>
+                                    <option className='language' defaultChecked>language</option>
+                                    <option className='language'>English</option>
+                                    <option className='language'>Kyrgyz</option>
+                                    <option className='language'>Russian</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>

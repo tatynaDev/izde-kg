@@ -12,7 +12,6 @@ interface IBtnProps {
 
 
 const Button: React.FC<IBtnProps> = ({text,disabled,onClick, classN}) => {
-
     return (
         <button disabled={disabled} onClick={onClick} className={classN}>{text}</button>
     )

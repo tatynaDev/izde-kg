@@ -1,0 +1,412 @@
+#info {
+  .info {
+    &-one {
+      &__img {
+        &-left {
+          img {
+          }
+        }
+        &-text {
+          h1 {
+          }
+          p {
+          }
+          &__btn {
+            button {
+            }
+          }
+          &__language {
+            p {
+            }
+            h3 {
+            }
+          }
+        }
+      }
+      &__border {
+      }
+      &__areas {
+        h1 {
+        }
+        &-bottom {
+          p {
+          }
+          h3 {
+          }
+        }
+      }
+    }
+    &-block {
+      &__call {
+        h1 {
+        }
+        &-agent {
+          button {
+            &:hover {
+            }
+            .phoneCall {
+            }
+          }
+        }
+        &-email {
+          button {
+            &:hover {
+            }
+            .LineEmail {
+            }
+          }
+        }
+      }
+      &__img {
+        h1 {
+        }
+        &--paragon {
+          img {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1640px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1500px) {}
+@media (max-width: 1440px) {}
+@media (max-width: 1400px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1140px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 992px) {}
+@media (max-width: 880px) {
+  #info {
+    .info {
+      justify-content: space-between;
+      &-one {
+        &__img {
+          flex-direction: column;
+          align-items: end;
+          &-left {
+            img {
+            }
+          }
+          &-text {
+            h1 {
+            }
+            p {
+            }
+            &__btn {
+              button {
+              }
+            }
+            &__language {
+              p {
+              }
+              h3 {
+              }
+            }
+          }
+        }
+        &__border {
+          width: 306px;
+        }
+        &__areas {
+          h1 {
+          }
+          &-bottom {
+            p {
+            }
+            h3 {
+            }
+          }
+        }
+      }
+      &-block {
+        &__call {
+          width: 300px;
+          h1 {
+          }
+          &-agent {
+            button {
+              &:hover {
+              }
+              .phoneCall {
+              }
+            }
+          }
+          &-email {
+            button {
+              &:hover {
+              }
+              .LineEmail {
+              }
+            }
+          }
+        }
+        &__img {
+          width: 300px;
+          h1 {
+          }
+          &--paragon {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {}
+@media (max-width: 768px) {}
+@media (max-width: 651px) {
+  #info {
+    .info {
+      flex-direction: column;
+      align-items: center;
+      &-one {
+        &__img {
+          align-items: center;
+          &-left {
+            img {
+            }
+          }
+          &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            h1 {
+              margin: 48px 0 0 0;
+            }
+            p {
+            }
+            &__btn {
+              button {
+              }
+            }
+            &__language {
+              p {
+              }
+              h3 {
+              }
+            }
+          }
+        }
+        &__border {
+        }
+        &__areas {
+          h1 {
+          }
+          &-bottom {
+            p {
+            }
+            h3 {
+            }
+          }
+        }
+      }
+      &-block {
+        &__call {
+          h1 {
+          }
+          &-agent {
+            button {
+              &:hover {
+              }
+              .phoneCall {
+              }
+            }
+          }
+          &-email {
+            button {
+              &:hover {
+              }
+              .LineEmail {
+              }
+            }
+          }
+        }
+        &__img {
+          h1 {
+          }
+          &--paragon {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {}
+@media (max-width: 451px) {
+  #info {
+    .info {
+      &-one {
+        &__img {
+          &-left {
+            img {
+            }
+          }
+          &-text {
+            h1 {
+            }
+            p {
+            }
+            &__btn {
+              button {
+              }
+            }
+            &__language {
+              p {
+              }
+              h3 {
+              }
+            }
+          }
+        }
+        &__border {
+          width: 271px;
+        }
+        &__areas {
+          transform: translateY(127px);
+          h1 {
+            display: none;
+          }
+          &-bottom {
+            p {
+            }
+            h3 {
+            }
+          }
+        }
+      }
+      &-block {
+        .con {
+          display: flex;
+          justify-content: space-between;
+          margin: 5px;
+        }
+        &__call {
+          transform: translateY(-294px);
+          margin: 108px 0 0 0;
+          height: 141px;
+          h1 {
+          }
+          &-agent {
+            padding: 0;
+            button {
+              padding: 10px ;
+              &:hover {
+              }
+              .phoneCall {
+              }
+            }
+          }
+          &-email {
+            button {
+              padding: 10px;
+              &:hover {
+              }
+              .LineEmail {
+              }
+            }
+          }
+        }
+        &__img {
+          margin: -100px 0 0 0;
+          h1 {
+          }
+          &--paragon {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {}
+@media (max-width: 376px) {}
+@media (max-width: 320px) {
+  #info {
+    .info {
+      &-one {
+        &__img {
+          &-left {
+            img {
+            }
+          }
+          &-text {
+            h1 {
+            }
+            p {
+            }
+            &__btn {
+              button {
+              }
+            }
+            &__language {
+              padding: 22px 0 0 0;
+              p {
+              }
+              h3 {
+              }
+            }
+          }
+        }
+        &__border {
+        }
+        &__areas {
+          h1 {
+          }
+          &-bottom {
+            p {
+            }
+            h3 {
+            }
+          }
+        }
+      }
+      &-block {
+        &__call {
+          h1 {
+          }
+          &-agent {
+            margin: 0 3px;
+
+            button {
+              margin: 0 3px;
+              &:hover {
+              }
+              .phoneCall {
+              }
+            }
+          }
+          &-email {
+            margin: 0 3px;
+            button {
+              margin: 0 3px;
+              &:hover {
+              }
+              .LineEmail {
+              }
+            }
+          }
+        }
+        &__img {
+          h1 {
+          }
+          &--paragon {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+}

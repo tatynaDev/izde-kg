@@ -12,7 +12,8 @@ import brooklyn from '../../../assets/img/Rectangle 73 (7).png'
 import '../AgentsBlock/AgentBlock.scss'
 
 const AgentsBlock = () => {
-    return (<section>
+    return (
+        <section>
             <div className="container">
                 <div className="block-one">
                     <Agent
