@@ -7,7 +7,7 @@
     align-items: center;
     padding: 100px 0;
     &--logo {
-      padding: 0 0 64px 0;
+      padding: 64px 0 30px 0 !important;
       display: flex;
       align-items: baseline;
       h1 {
@@ -66,6 +66,16 @@
         text-decoration-line: underline;
         color: #1B76F9;
       }
+      &__block {
+        position: relative;
+
+      }
+      &__button {
+        position: absolute;
+        font-size: 20px;
+        left: 90%;
+        top: 30%;
+      }
       &__btn {
         width: 544px;
         height: 54px;
@@ -77,12 +87,7 @@
         line-height: 30px;
         color: #FFFFFF;
       }
-      &__button {
-        position: absolute;
-        font-size: 20px;
-        left: 91%;
-        top: 30%;
-      }
+
       &__child {
         display: flex;
         align-items: center;
