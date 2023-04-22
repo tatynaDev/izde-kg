@@ -51,8 +51,6 @@ const MainHome = () => {
                                                     accord ? <HiOutlineChevronDown className='down'/> :
                                                         <HiOutlineChevronUp className='up'/>
                                                 }
-
-
                                             </label>
 
                                             <div className="country-text"
@@ -103,6 +101,8 @@ const MainHome = () => {
 
 
                                                 </label>
+                                                }
+                                            </label>
 
                                                 <div className="price-text" style={{
                                                     display: price ? 'block' : 'none'

@@ -6,6 +6,7 @@ import ImageProfile from "./img/ImageProfile";
 import {GiBathtub} from "react-icons/gi";
 import {MdOutlineSelectAll} from "react-icons/md";
 import {BiBed} from "react-icons/bi";
+import "../UserProfile/Media/UserProfileMedia.scss"
 
 const UserProfile = () => {
     return (

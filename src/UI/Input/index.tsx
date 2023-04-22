@@ -8,11 +8,12 @@ interface IInputProps {
     onChange?: (e:any) => void
     styles?: CSSProperties | undefined
     width?: number
+    className?: string
 }
 
-const Input: React.FC<IInputProps> = ({text,width,styles,onChange,value,names, placeholder}) => {
+const Input: React.FC<IInputProps> = ({text,className,width,styles,onChange,value,names, placeholder}) => {
     return (
-        <input width={width} style={styles} onChange={onChange} type={text} name={names} value={value} placeholder={placeholder}/>
+        <input className={className} width={width} style={styles} onChange={onChange} type={text} name={names} value={value} placeholder={placeholder}/>
     );
 };
 

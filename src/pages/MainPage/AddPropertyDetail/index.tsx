@@ -40,7 +40,7 @@ const AddPropertyDetail = () => {
                     </div>
                     <a href="#">Add photo</a>
 
-                    <input type="file" ref={inputRef} onChange={handleChange}/>
+                    {/*<input type="file" ref={inputRef} onChange={handleChange}/>*/}
 
 
                     <div className="AddPropertyDetail--group">
@@ -103,7 +103,7 @@ const AddPropertyDetail = () => {
                             </div>
                             <div>
                                 <h2>About property </h2>
-                                <Input styles={{width: "662px", height: "88px"}}/>
+                                <Input className={"about"} styles={{width: "662px", height: "88px"}}/>
                             </div>
                             <button className="buttons">Send to admin</button>
                         </div>

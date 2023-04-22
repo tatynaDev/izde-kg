@@ -1,0 +1,495 @@
+.AddPropertyDetail {
+  h1 {
+  }
+  a {
+  }
+  &--group {
+    &__left {
+      h2 {
+      }
+      button {
+      }
+      input {
+      }
+      .buttons {
+      }
+    }
+    &__right {
+      h3 {
+      }
+      &--box {
+        &__icons {
+        }
+        input {
+        }
+        h4 {
+        }
+      }
+    }
+  }
+}
+.iframes {
+}
+.AddPropertyImageOne {
+  &--children {
+    &__one {
+      img {
+      }
+    }
+    &__two {
+      img {
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    .AddPropertyDetail {
+      h1 {
+      }
+      a {
+      }
+      &--group {
+        &__left {
+          h2 {
+          }
+          button {
+          }
+          input {
+          }
+          .buttons {
+          }
+        }
+        &__right {
+          h3 {
+          }
+          &--box {
+            &__icons {
+            }
+            input {
+            }
+            h4 {
+            }
+          }
+        }
+      }
+    }
+    .iframes {
+    }
+    .AddPropertyImageOne {
+      &--children {
+        &__one {
+          img {
+          }
+        }
+        &__two {
+          img {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {}
+@media (max-width: 1200px) {
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      justify-content: center;
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+          display: none ;
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 820px) {
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      flex-direction: column;
+      &__left {
+
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+          position: absolute;
+          top: 368%;
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+          top: 370%;
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .about {
+    width: 404px !important;
+  }
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+          top: 325% !important;
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    display: none;
+    &--children {
+      img {
+        width: 400px !important;
+      }
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  .about {
+    width: 314px !important;
+  }
+  .AddPropertyDetail {
+    h1 {
+    }
+    a {
+    }
+    &--group {
+      &__left {
+        h2 {
+        }
+        button {
+        }
+        input {
+        }
+        .buttons {
+          top: 348% !important;
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+  .about {
+    width: 248px !important;
+  }
+  .AddPropertyDetail {
+    h1 {
+      font-size: 21px;
+    }
+    a {
+      font-size: 16px;
+    }
+    &--group {
+      &__left {
+        h2 {
+          font-size: 18px;
+        }
+        button {
+          font-size: 16px;
+        }
+        input {
+        }
+        .buttons {
+          top: 352% !important;
+          width: 269px;
+        }
+      }
+      &__right {
+        h3 {
+        }
+        &--box {
+          &__icons {
+          }
+          input {
+          }
+          h4 {
+          }
+        }
+      }
+    }
+  }
+  .iframes {
+  }
+  .AddPropertyImageOne {
+    &--children {
+      &__one {
+        img {
+        }
+      }
+      &__two {
+        img {
+        }
+      }
+    }
+  }
+}

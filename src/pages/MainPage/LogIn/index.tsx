@@ -80,7 +80,7 @@ const LogIn = () => {
                         <div className="logIn--nav">
                         <h6>Log in</h6>
                         <Input value={values.email} styles={{border: error ? values.email.trim().length !== 0 ? "" : "2px solid red" : ""}} onChange={handleChange} names={"email"} text={"email"} placeholder={"Email"}/>
-                        <div style={{position: "relative"}}>
+                        <div className="logIn--nav__block">
                         <Input value={values.password} styles={{border: error ? values.password.trim().length !== 0 ? "" : "2px solid red" : ""}} onChange={handleChange} names={"password"} text={type ? "password" : "text"} placeholder={"Password"}/>
                         <div onClick={() => setType(!type)} className="logIn--nav__button">{type ? <AiOutlineEyeInvisible/> : <AiOutlineEye/>}</div>
                         </div>

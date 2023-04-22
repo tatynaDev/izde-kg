@@ -5,7 +5,7 @@ import image3 from "../../../../assets/img/AddPropertyDetail/addProperty-image3.
 import image4 from "../../../../assets/img/AddPropertyDetail/addProperty-image4.svg"
 import image5 from "../../../../assets/img/AddPropertyDetail/addProperty-image5.svg"
 import "../../../MainPage/AddPropertyDetail/AddPropertyDetail.scss"
-
+import "../Media/AddProprettyDetailMedia.scss"
 const AddPropertyImageOne = () => {
     return (
         <div className="AddPropertyImageOne">

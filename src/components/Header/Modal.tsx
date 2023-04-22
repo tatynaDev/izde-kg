@@ -1,11 +1,15 @@
 import React, {useEffect, useState} from 'react';
-import {NavLink, useParams} from "react-router-dom";
+import {NavLink, useNavigate, useParams} from "react-router-dom";
 import Button from "../../UI/Button";
 
 const Modal = () => {
     const [open, setOpen] = useState(false)
+    const navigate = useNavigate()
     const close = () => {
         setOpen(!open)
+    }
+    const MLogNav = () => {
+        navigate("/logIn")
     }
 
     useEffect(() => {
@@ -31,7 +35,10 @@ const Modal = () => {
                 <NavLink onClick={close} to='/agents'>Agents</NavLink>
                 <NavLink onClick={close} to='/review'>Reviews</NavLink>
 
-                <Button onClick={close} text='login' classN='header__block--btn__btn'/>
+                <Button onClick={() => {
+                    MLogNav()
+                    close()
+                }} text='login' classN='header__block--btn__btn'/>
                 <div className='header__block--btn__language'>
                     <select>
                         <option className='language'>English</option>
