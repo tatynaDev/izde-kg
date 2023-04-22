@@ -120,3 +120,50 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px){
+  .easy-home{
+    &-content{
+      &-block{
+        &-process{
+          &-agent{
+            width: 380px;
+            height: 340px;
+            img{
+              width: 380px;
+            }
+            .process-info{
+              p{
+                width: 350px;
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 840px){
+  .easy-home{
+    padding-top: 10rem;
+    &-content{
+      &-block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .easy-home-content-block-process1{
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 768px){
+.easy-home{
+  margin-top: 10rem;
+}
+}

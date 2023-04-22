@@ -4,7 +4,7 @@ import './MainAgent.scss'
 const MainAgent = () => {
     return (
         <div>
-            <div className="agent">
+            <div className="agentMain">
                 <div className="container">
                     <div className="content-agent">
                             <h1>Meet our SuperAgents</h1>
