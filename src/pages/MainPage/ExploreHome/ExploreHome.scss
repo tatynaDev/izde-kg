@@ -98,3 +98,23 @@
     }
   }
 }
+
+@media screen and (max-width: 840px){
+.explore-home{
+  &-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    &-btn{
+      margin-top: 50px;
+      .explore-see-btn{
+        margin-left: 130px;
+      }
+      .explore-item-content{
+        margin-left: 170px;
+      }
+    }
+  }
+}
+}
