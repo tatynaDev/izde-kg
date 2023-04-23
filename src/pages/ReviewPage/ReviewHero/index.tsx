@@ -8,12 +8,11 @@ import {BiSearch} from "react-icons/bi";
 const ReviewPage = () => {
     return (
         <div id="review">
-            <img  src={reviewPage} alt="img"/>
+            <div className="review-build">
+                <h1>Building Reviews</h1>
+            </div>
             <div className="container">
                 <div className="review">
-                    <div className="review--build">
-                        <h1>Building Reviews</h1>
-                    </div>
                     <div className="review--block">
                         <div className="review--block__search">
                             <input className='main-home-input' type="text" placeholder='Enter building name or community'/>

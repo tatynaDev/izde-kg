@@ -1,110 +1,88 @@
 #revBishkek {
-  padding-top: 50%;
+  padding-top: 40px;
 
-  .textOne {
-    display: flex;
-    //align-items: center;
-    justify-content: space-around;
-
-    h1 {
-      //padding-top: 50%;
-      font-weight: 600;
-      font-size: 28.43px;
-      color: #004A60;
-    }
+  h1 {
+    padding: 25px 0;
+    font-weight: 600;
+    font-size: 28.43px;
+    color: #004A60;
   }
+
 
   .revBishkek {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 40px 0;
+
 
     .blocks {
       display: flex;
       flex-direction: column;
-      width: 56%;
-
+      width: 54%;
     }
 
     &--build {
-      height: 240px;
       border: 1px solid rgba(0, 74, 96, 0.7);
       border-radius: 10px;
       padding: 7px 10px 10px 10px;
       margin: 20px 0;
+      display: flex;
 
-
-      &__first {
+      &__info {
+        width: 56%;
+        margin-left: 20px;
+        height: 240px;
         display: flex;
-        padding: 0 0 30px 0;
+        flex-direction: column;
+        justify-content: space-between;
 
         &--block {
-          margin: 0 20px;
-
-          &__text {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 60px;
-
-            h5 {
-              font-weight: 400;
-              font-size: 20px;
-              color: #004A60;
-            }
-
-            h2 {
-              font-weight: 600;
-              font-size: 26px;
-              color: #004A60;
-            }
+          h3 {
+            font-weight: 400;
+            font-size: 20px;
+            color: #004A60;
           }
 
-          &__stars {
-            display: flex;
-            margin-bottom: 20px;
-
-            &--icon {
-              color: #004A60;
-              font-size: 28px;
-              font-weight: 600;
-            }
-
-            span {
-              font-weight: 600;
-              font-size: 22px;
-              color: #004A60;
-            }
+          h2 {
+            font-weight: 500;
+            font-size: 21.33px;
+            line-height: 32px;
+            color: #004A60;
           }
 
-          &__message {
+          &__star {
             display: flex;
             align-items: center;
+            font-weight: 600;
+            font-size: 16px;
+
+
+            color: #004A60;
+
+            p {
+              margin-left: 10px;
+              font-size: 21px;
+            }
+          }
+
+          &__btn {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
 
             button {
-              padding: 10px 30px;
-              background: transparent;
-              border: 1px solid #004A60;
+              width: 47%;
+              font-weight: 400;
+              font-size: 16px;
               color: rgba(0, 74, 96, 0.7);
+              padding: 10px 2px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid rgba(0, 74, 96, 0.7);
+              background: transparent;
               border-radius: 10px;
-              outline: none;
-            }
-
-            //&--btn {
-            &__iconM {
-              font-size: 40px;
-              color: #004A60;
-              background: rgba(0, 74, 96, 0.7);
-            }
-
-            //}
-
-            &--write {
-              margin: 0 20px;
-
-              &__iconsP {
-                font-size: 20px;
-                color: #004A60;
-              }
             }
           }
         }
@@ -116,7 +94,6 @@
     }
 
     &--latest {
-      height: 276px;
       border: 1px solid rgba(0, 74, 96, 0.7);
       border-radius: 10px;
       padding: 7px 20px 10px 10px;
@@ -167,6 +144,126 @@
           color: rgba(0, 74, 96, 0.7);
           border-radius: 10px;
           outline: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  #revBishkek {
+    .revBishkek {
+      flex-direction: column;
+      align-items: center;
+
+      .blocks {
+        width: 100%;
+      }
+
+      &--build {
+        &__message {
+          button {
+            padding: 0 60px;
+          }
+        }
+
+        &__info {
+
+        }
+      }
+
+      .group {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 651px) {
+  #revBishkek {
+    .revBishkek {
+      flex-direction: column;
+      align-items: center;
+
+      .blocks {
+        width: 110%;
+      }
+
+      &--build {
+        flex-direction: column;
+        margin: 30px 0;
+        img {
+          width: 100%;
+          padding-bottom: 10px;
+        }
+
+        &__message {
+          button {
+            padding: 0 60px;
+          }
+        }
+
+        &__info {
+          width: 90%;
+          height: 200px;
+
+          &--block {
+            &__btn {
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+      }
+
+      .group {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 561px) {
+  #revBishkek {
+    .revBishkek {
+      &--build {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 451px) {
+  #revBishkek {
+    .revBishkek {
+      &--build {
+        &__info {
+          &--block {
+            &__btn {
+              width: 110%;
+              margin-left: -15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 401px) {
+  #revBishkek {
+    .revBishkek {
+      &--build {
+        &__info {
+          &--block {
+            &__btn {
+              width: 110%;
+              margin-left: -20px;
+            }
+          }
         }
       }
     }
