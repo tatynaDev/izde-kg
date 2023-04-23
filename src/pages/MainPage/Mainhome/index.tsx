@@ -24,7 +24,6 @@ const MainHome = () => {
         setPrice(!price)
     }
     return (
-        <>
             <div className="main-home" id="main-home">
                 <div className="container">
                     <div className="main-home-content">
@@ -101,8 +100,7 @@ const MainHome = () => {
 
 
                                                 </label>
-                                                }
-                                            </label>
+                                             
 
                                                 <div className="price-text" style={{
                                                     display: price ? 'block' : 'none'
@@ -128,8 +126,6 @@ const MainHome = () => {
                     </div>
                 </div>
             </div>
-
-        </>
     );
 };
 
